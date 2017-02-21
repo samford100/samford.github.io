@@ -3,29 +3,18 @@ import { Router, Route, Link, IndexRoute, hashHistory, browserHistory, IndexLink
 import ReactDOM from 'react-dom'
 import Home from './components/Home.js'
 import SideBar from './components/SideBar.js'
-import TeamPage from './components/TeamPage.js'
-import ServicePage from './components/ServicePage.js'
-import ServicesList from './components/ServicesList.js'
-import TeamsList from './components/TeamsList.js'
-import Profile from './components/Profile'
 
 class Routes extends React.Component {
   render() {
 	return (
 	  <div>
-		<Router history={browserHistory}>
+		<Router history={hashHistory}>
 		  <Route path='/' component={Container}>
 			<IndexRoute component={Home} />
-			<Route path="/pings" component={Pings} />
-			<Route path="/help" component={Help} />
-			<Route path='/profile' component={Profile} />
-			
-			<Route path='/myservices' component={ServicePage} />
-			<Route path='/myservices/:service' component={ServicePage} />
-
-			<Route path='/myteams' component={TeamPage} />
-			<Route path='/myteams/:team' component={TeamPage} />
-
+			<Route path="/bio" component={Bio} />
+			<Route path="/contacts" component={Contact} />
+			<Route path='/resume' component={Resume} />
+			<Route path='/sampleworks' component={SampleWorks} />
 			<Route path='*' component={NotFound} />
 		  </Route>
 		</Router>
@@ -66,37 +55,44 @@ class NavBar extends React.Component{
     )
   }
 };
-// <ul className="nav nav-pills float-xs-right" style={{fontSize: '20px'}}>
-              // <li className="nav-item">
-              // </li>
-            // </ul>
+
+class Bio extends React.Component {
+	render() {
+		return (
+			<h1>Bio</h1>
+		)
+	}
+}
+
+class Resume extends React.Component {
+	render() {
+		return (
+			<h1>Bio</h1>
+		)
+	}
+}
+
+class Contact extends React.Component {
+	render() {
+		return (
+			<h1>Bio</h1>
+		)
+	}
+}
+
+class SampleWorks extends React.Component {
+	render() {
+		return (
+			<h1>Bio</h1>
+		)
+	}
+}
 
 class NotFound extends React.Component {
   render() {
 	return <h1>NOT FOUND</h1>
   }
 }
-class Pings extends React.Component {
-  render() {
-	return (
-	  <div>
-		<h1>Pings</h1>
-	  </div>
-	)
-  }
-}
-
-class Teams extends React.Component {
-  render() {
-	return <h1>Teams</h1>
-  }
-}
-class Help extends React.Component {
-  render() {
-	return <h1>Help</h1>
-  }
-}
-
 
 
 export default Routes;
