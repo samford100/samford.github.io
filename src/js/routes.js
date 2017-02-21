@@ -12,7 +12,7 @@ class Routes extends React.Component {
 		  <Route path='/' component={Container}>
 			<IndexRoute component={Home} />
 			<Route path="/bio" component={Bio} />
-			<Route path="/contacts" component={Contact} />
+			<Route path="/contact" component={Contact} />
 			<Route path='/resume' component={Resume} />
 			<Route path='/sampleworks' component={SampleWorks} />
 			<Route path='*' component={NotFound} />
@@ -32,7 +32,6 @@ class Container extends React.Component {
 			<SideBar />
 		  </div>
 		  <div className="col-xs-10">
-		  	<NavBar/>
 			{this.props.children}
 		  </div>
 		</div>
@@ -67,7 +66,7 @@ class Bio extends React.Component {
 class Resume extends React.Component {
 	render() {
 		return (
-			<h1>Bio</h1>
+			<h1>Resume</h1>
 		)
 	}
 }
@@ -75,7 +74,7 @@ class Resume extends React.Component {
 class Contact extends React.Component {
 	render() {
 		return (
-			<h1>Bio</h1>
+			<h1>Contact</h1>
 		)
 	}
 }
@@ -83,7 +82,7 @@ class Contact extends React.Component {
 class SampleWorks extends React.Component {
 	render() {
 		return (
-			<h1>Bio</h1>
+			<h1>Sample Works</h1>
 		)
 	}
 }
