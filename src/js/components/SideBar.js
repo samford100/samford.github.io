@@ -22,18 +22,6 @@ export default class SideBar extends React.Component {
                     <Link className="nav-link" activeClassName="activeLink" to={'/sampleworks'}><h5>Sample Works</h5></Link>
                 </li>
             </ul>
-
-
-            <footer class="footer">
-                <div class="container">
-                    <h6 style={{color: 'white'}}><small>
-                        <Link to="/faq">FAQ</Link>
-                        &#160;|&#160;
-                        <Link to="help">Getting Started</Link>
-                    </small></h6>
-                    <h6 style={{color: 'white'}}><small>©2017 Thundercats, LLC</small></h6>
-                </div>
-            </footer>
         </div>
         )
     }
