@@ -16,10 +16,10 @@ export default class SideBar extends React.Component {
                     <Link className="nav-link" activeClassName="activeLink" to={'/contact'}><h5>Contact</h5></Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" activeClassName="activeLink" to={'/Resume'}><h5>Resume</h5></Link>
+                    <Link className="nav-link" activeClassName="activeLink" to={'/resume'}><h5>Resume</h5></Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" activeClassName="activeLink" to={'/SampleWorks'}><h5>Sample Works</h5></Link>
+                    <Link className="nav-link" activeClassName="activeLink" to={'/sampleworks'}><h5>Sample Works</h5></Link>
                 </li>
             </ul>
 
