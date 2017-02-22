@@ -68,7 +68,7 @@ class Resume extends React.Component {
 		return (
 			<div>
 				<h1>Resume</h1>
-				<embed src="./resume.pdf" width="80hh" height="100vh" />
+				<embed src="./resume.pdf" width="800px" height="800px" />
 			</div>
 
 		)
