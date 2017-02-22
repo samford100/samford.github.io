@@ -66,7 +66,11 @@ class Bio extends React.Component {
 class Resume extends React.Component {
 	render() {
 		return (
-			<h1>Resume</h1>
+			<div>
+				<h1>Resume</h1>
+				<embed src="./resume.pdf" width="800px" height="2100px" />
+			</div>
+
 		)
 	}
 }
