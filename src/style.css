@@ -15,26 +15,137 @@
   border-bottom: 1px solid #eee;
 }*/
 
-
-.react-calendar-timeline .rct-items .rct-item.analysis {
-  background: gold;
+/*
+image postioning
+*/
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+.headshot {
+  position: relative;
+  top: 150px;
+  left: 0px;
+  margin:0px;
+  border-radius: 5px;
+  padding:1px;
+  border:1px solid #021a40;
+  background-color:white;
 }
 
-/* bootstrap hack: fix content width inside hidden tabs */
-.tab-content > .tab-pane:not(.active),
-.pill-content > .pill-pane:not(.active) {
-    display: block;
-    height: 0;
-    overflow-y: hidden;
-} 
-/* bootstrap hack end */
+.bobbydodd {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding:0px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.resume {
+  position: relative;
+  overflow: hidden;
+  float: left;
+}
+
+.lax {
+  height:40%;
+  width:40%;
+  float:right;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+
+.bio-header {
+  padding-top: 20px;
+  background-color: blue;
+}
+
+.info {
+  position: relative;
+  padding-left: 21%;
+  /*font-size: 20px;*/
+}
+
+
+
+.resume {
+  display: relative;
+  overflow: hidden;
+}
+
+.name {
+  font-size:35px;
+}
+
+.work-block {
+  display:relative;
+  padding: 10px;
+  float:left;
+	width: 25%;
+	height: 250px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+  transition: 1s
+  left:0;
+  color:white;
+}
+
+.work-block:hover {
+  width: 25%;
+  height: 250px;
+  margin-top: 0px;
+  -moz-box-shadow:    0 0 50px black;
+  -webkit-box-shadow: 0 0 50px black;
+  box-shadow:         0 0 50px black;
+}
+
+.work-block-header {
+  font-size: 40px;
+  text-align: center;
+}
+
+.work-block-image {
+  display:block;
+  margin: auto;
+  text-align: center;
+  height: 70%;
+  width: 70%;
+  float:right;
+  background-size: cover;
+}
+
+.work-block-info {
+  transition:1s;
+  padding: 20px;
+  display: relative;
+  clear: both;
+  max-width: 100%;
+  background-color: white;
+}
+
+.work-block-text {
+  padding-right:20px;
+}
+
+.work-block-info-header {
+  font-size
+}
+
+.work-block-link {
+  color: white;
+}
+
+.work-block-link:hover {
+  color: yellow;
+}
 
 .rct-sidebar-header {
-  background: gold !important; 
+  background: gold !important;
 }
 
 .rct-label-group {
-  background: gold !important; 
+  background: gold !important;
 }
 
 /*

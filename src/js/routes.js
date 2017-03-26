@@ -3,6 +3,10 @@ import { Router, Route, Link, IndexRoute, hashHistory, browserHistory, IndexLink
 import ReactDOM from 'react-dom'
 import Home from './components/Home.js'
 import SideBar from './components/SideBar.js'
+import Resume from './components/Resume.js'
+import SampleWorks from './components/SampleWorks.js'
+import Bio from './components/Bio.js'
+
 
 class Routes extends React.Component {
   render() {
@@ -26,15 +30,8 @@ class Routes extends React.Component {
 class Container extends React.Component {
   render() {
 	return (
-	  <div className="container-fluid">
-		<div className="row">
-		  <div className="col-xs-2">
-			<SideBar />
-		  </div>
-		  <div className="col-xs-10">
+	  <div>
 			{this.props.children}
-		  </div>
-		</div>
 	  </div>
 	)
   }
@@ -55,38 +52,10 @@ class NavBar extends React.Component{
   }
 };
 
-class Bio extends React.Component {
-	render() {
-		return (
-			<h1>Bio</h1>
-		)
-	}
-}
-
-class Resume extends React.Component {
-	render() {
-		return (
-			<div>
-				<h1>Resume</h1>
-				<embed src="./resume.pdf" width="800px" height="800px" />
-			</div>
-
-		)
-	}
-}
-
 class Contact extends React.Component {
 	render() {
 		return (
 			<h1>Contact</h1>
-		)
-	}
-}
-
-class SampleWorks extends React.Component {
-	render() {
-		return (
-			<h1>Sample Works</h1>
 		)
 	}
 }
