@@ -10,4 +10,3 @@ cp "src/style.css" "./"
 echo "Building..."
 
 exec "./node_modules/.bin/webpack"
-

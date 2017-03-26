@@ -39,8 +39,8 @@ class Pictures extends Component {
   render() {
     return (
       <div class="parent">
-        <img class="bobbydodd" src="./assets/bobbydodd.jpg" height="100%" width="100%" />
-        <img class="headshot" src="./assets/headshot.jpg" height="20%" width="20%" />
+        <img class="bobbydodd" src="../assets/bobbydodd.jpg" height="100%" width="100%" />
+        <img class="headshot" src="../assets/headshot.jpg" height="20%" width="20%" />
       </div>
     )
   }
