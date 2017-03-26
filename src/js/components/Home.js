@@ -7,9 +7,8 @@ import Bio from './Bio'
 export default class Home extends React.Component {
   render() {
     return (
-      <div style={{paddingTop: "20px"}}>
-        <Pictures />
-        <Info />
+      <div>
+        <TitlePicture />
         <Bio />
         <SampleWorks />
         <Resume />
@@ -18,6 +17,23 @@ export default class Home extends React.Component {
   }
 }
 
+class TitlePicture extends Component {
+  render() {
+    return (
+      <div class="parent figure">
+        <img src="./assets/lax.jpg" />
+        <div class="figcaption">
+          <h1>
+            <span>Sam Ford</span>
+          </h1>
+          <h2>
+            <span>Software Engineer</span>
+          </h2>
+        </div>
+      </div>
+    )
+  }
+}
 
 class Pictures extends Component {
   render() {

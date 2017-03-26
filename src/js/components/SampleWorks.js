@@ -26,7 +26,9 @@ export default class SampleWorks extends React.Component {
 	render() {
 		return (
       <div class="sample-works">
-  			<h1>Sample Works</h1>
+        <div class="sample-works-header">
+    			<h1>Sample Works</h1>
+        </div>
         <WorkBlock
           name="Personal Website"
           link="google.com"
@@ -65,6 +67,8 @@ export default class SampleWorks extends React.Component {
 		)
 	}
 }
+// <WorkBlockInfo block={this.state.block} />
+
 
 class WorkBlockInfo extends React.Component {
   render() {
@@ -82,6 +86,9 @@ class WorkBlockInfo extends React.Component {
     )
   }
 }
+// <img class="work-block-image" src={this.props.block.image} />
+// <h2><strong>{this.props.block.name}</strong></h2>
+// <p class="work-block-text">{this.props.block.description}</p>
 
 class WorkBlock extends React.Component {
   render() {

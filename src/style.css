@@ -34,6 +34,21 @@ image postioning
   background-color:white;
 }
 
+.title-picture {
+  height: 100%;
+  width: 100%;
+}
+
+.title-text {
+  position: absolute;
+  top: 400px;
+  color: white;
+  font: bold 32px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background-color: rgba(0,0,0,.5);
+  padding: 10px;
+}
+
 .bobbydodd {
   position: absolute;
   top: 0px;
@@ -41,12 +56,6 @@ image postioning
   padding:0px;
   border-radius: 5px;
   border: 1px solid black;
-}
-
-.resume {
-  position: relative;
-  overflow: hidden;
-  float: left;
 }
 
 .lax {
@@ -57,9 +66,94 @@ image postioning
   border: 1px solid black;
 }
 
+.bio {
+  display:block;
+  margin-top:0px;
+}
+
 .bio-header {
+  margin-top:0px;
+  clear:both;
+}
+
+.bio-text {
+  display:inline-block;
+  float:left;
+	width: 70%;
+  height:500px;
+  padding:20px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+  transition: 1s;
+  left:0;
+  color:black;
+  background-color: white;
+}
+
+.parent {
+  /*border: 1px solid #000;*/
+	height: auto;
+	/*white-space: nowrap;*/
+	max-width: 100%;
+	width: auto;
+}
+
+.figure {
+  position: relative;
+  display: inline-block;
+  width:100%;
+  height:10%;
+}
+
+.figure .figcaption {
+	text-align: center;
+  width:100%;
+  height:200px;
+	font-size: 40px;
+	color:white;
+  background-color: rgba(0,0,0,.5);
+  position:absolute;
+  top:60%;
+  z-index:1;
+  margin:0px;
+}
+
+.figure img {
+  display:block;
+  width:100%;
+  height:100%;
+  max-width: 100%;
+}
+
+.bio-img {
+  display:inline-block;
+  float:right;
+	width: 30%;
+	height: 30%;
+  left:0;
+  color:black;
+}
+
+.bio-header {
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
   padding-top: 20px;
+  padding-bottom:20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color:white;
   background-color: blue;
+}
+
+.sample-works-header {
+  clear: both;
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  text-align: center;
+  color:white;
+  background-color: black;
+  width
 }
 
 .info {
@@ -70,9 +164,20 @@ image postioning
 
 
 
+.resume-header {
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color:white;
+  background-color: purple;
+}
+
 .resume {
-  display: relative;
-  overflow: hidden;
+  clear: both;
+  min-height: 200%;
 }
 
 .name {
@@ -103,6 +208,11 @@ image postioning
 .work-block-header {
   font-size: 40px;
   text-align: center;
+  position: relative;
+float: left;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
 }
 
 .work-block-image {
@@ -121,6 +231,7 @@ image postioning
   display: relative;
   clear: both;
   max-width: 100%;
+  color:black;
   background-color: white;
 }
 
