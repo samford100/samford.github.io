@@ -75,7 +75,6 @@ class TitlePicture extends Component {
   }
 }
 
-// <img src="./assets/cliffs.jpg" />
 
 
 class Pictures extends Component {
