@@ -30,7 +30,7 @@ export default class Bio extends React.Component {
 					 My areas of concentration are Artificial Intelligence and Modeling/Simulation,
 					 with a serious interest in Machine Learning. </span>
 				 </p>
-				 <img class="bio-img" src="./assets/headshot.jpg" />
+				 <img class="bio-img" src="./assets/headshot.png" />
       </div>
 		)
 	}
