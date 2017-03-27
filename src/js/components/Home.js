@@ -52,7 +52,7 @@ class TitlePicture extends Component {
     return (
       <div class="parent">
         <div class="figure">
-          <img src="./assets/cliffs.jpg" />
+          <img src="./assets/cliffs.png" />
           <div class="figcaption">
             <h1>
               <span>Sam Ford</span>
