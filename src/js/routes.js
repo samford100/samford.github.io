@@ -6,6 +6,7 @@ import SideBar from './components/SideBar.js'
 import Resume from './components/Resume.js'
 import SampleWorks from './components/SampleWorks.js'
 import Bio from './components/Bio.js'
+import Contact from './components/Contact.js'
 
 
 class Routes extends React.Component {
@@ -15,17 +16,20 @@ class Routes extends React.Component {
 		<Router history={hashHistory}>
 		  <Route path='/' component={Container}>
 			<IndexRoute component={Home} />
-			<Route path="/bio" component={Bio} />
-			<Route path="/contact" component={Contact} />
-			<Route path='/resume' component={Resume} />
-			<Route path='/sampleworks' component={SampleWorks} />
-			<Route path='*' component={NotFound} />
+      <Route path='*' component={Home} />
+
 		  </Route>
 		</Router>
 	  </div>
 	)
   }
 };
+
+// <Route path="/bio" component={Bio} />
+// <Route path="/contact" component={Contact} />
+// <Route path='/resume' component={Resume} />
+// <Route path='/sampleworks' component={SampleWorks} />
+// <Route path='*' component={NotFound} />
 
 class Container extends React.Component {
   render() {
@@ -37,28 +41,7 @@ class Container extends React.Component {
   }
 }
 
-class NavBar extends React.Component{
-  render() {
-    return (
-      <div className="container row" style={{paddingBottom: '20px', paddingTop: '20px', paddingRight:'0px', marginRight: '0px'}}>
-      	<div class="col-xs-4">
-      		<input type="text" class="form-control" placeholder="Search"></input>
-      	</div>
-      	<div class="col-xs-8" style={{textAlign: "right"}}>
-			<h4><Link style={{display:"inline-block"}} to="/profile">Sam Ford</Link></h4>
-      	</div>
-      </div>
-    )
-  }
-};
 
-class Contact extends React.Component {
-	render() {
-		return (
-			<h1>Contact</h1>
-		)
-	}
-}
 
 class NotFound extends React.Component {
   render() {

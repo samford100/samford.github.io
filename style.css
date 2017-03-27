@@ -18,11 +18,7 @@
 /*
 image postioning
 */
-.parent {
-  position: relative;
-  top: 0;
-  left: 0;
-}
+
 .headshot {
   position: relative;
   top: 150px;
@@ -66,35 +62,166 @@ image postioning
   border: 1px solid black;
 }
 
-.bio {
+.contact-header {
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color:white;
+  background-color: blue;
   display:block;
   margin-top:0px;
+}
+
+.bio {
+  display:relative;
+  height: 100%;
+  width: 100%;
+  margin-top:0px;
+  background-color: white;
+}
+
+.bio-img {
+  /*display:inline-block;*/
+  float:right;
+	width: 30%;
+	height: inherit;
+  left:0;
+  color:black;
 }
 
 .bio-header {
   margin-top:0px;
   clear:both;
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color:white;
+  background-color: #FFB86F;
 }
 
 .bio-text {
   display:inline-block;
   float:left;
 	width: 70%;
-  height:500px;
-  padding:20px;
+  height:;
+  padding-right:20px;
+  padding-left:20px;
+  padding-top:20px;
+  margin-bottom:0px;
+  padding-bottom:0px;
   -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
   transition: 1s;
   left:0;
   color:black;
+  /*background-color: yellow;*/
+}
+
+.education {
+  display:relative;
+  height: 100%;
+  width: 100%;
+  margin-top:0px;
   background-color: white;
 }
 
+.education-header {
+  margin-top:0px;
+  clear:both;
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color:white;
+  background-color: #eeb211;
+}
+
+.education-text {
+  display:inline-block;
+  float:right;
+	width: 40%;
+  height:auto;
+  padding-right:20px;
+  padding-left:20px;
+  padding-top:20px;
+  margin-bottom:0px;
+  padding-bottom:0px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+  transition: 1s;
+  left:0;
+  color:black;
+  /*background-color: yellow;*/
+}
+
+.education-img {
+  /*display:inline-block;*/
+  float:left;
+	width: 60%;
+	height: inherit;
+  left:0;
+  color:black;
+}
+
+.experience {
+  display:relative;
+  height: 100%;
+  width: 100%;
+  margin-top:0px;
+  background-color: white;
+}
+
+.experience-header {
+  margin-top:0px;
+  clear:both;
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  margin-bottom: 0px;
+  text-align: center;
+  color:white;
+  background-color: #98C1D9;
+}
+
+.company-name {
+
+}
+
+.experience-text {
+  display:relative;
+	width: 100%;
+  text-align: center;
+  height:auto;
+  padding-right:20px;
+  padding-left:20px;
+  padding-top:20px;
+  margin-bottom:0px;
+  padding-bottom:20px;
+  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
+  transition: 1s;
+  left:0;
+  color:black;
+  /*background-color: yellow;*/
+}
+
 .parent {
-  /*border: 1px solid #000;*/
-	height: auto;
+  /*background-image: url(assets/cliffs.jpg);*/
+  /*background-size: cover;*/
+  height:auto;
+  /*background-repeat: no-repeat;
+  background-position: center center;*/
+  /*position:relative;*/
+	/*height: auto;*/
 	/*white-space: nowrap;*/
 	max-width: 100%;
-	width: auto;
+	width: 100%;
 }
 
 .figure {
@@ -105,54 +232,76 @@ image postioning
 }
 
 .figure .figcaption {
-	text-align: center;
-  width:100%;
-  height:200px;
-	font-size: 40px;
+	text-align: left;
+  width:50%;
+  padding: 10px;
+  height:auto;
+	font-size:40px;
 	color:white;
   background-color: rgba(0,0,0,.5);
   position:absolute;
   top:60%;
   z-index:1;
   margin:0px;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,.5)); /* Standard syntax (must be last) */
 }
 
-.figure img {
-  display:block;
-  width:100%;
-  height:100%;
-  max-width: 100%;
+.figure .fig-nav a {
+  color:white;
+  text-decoration: none;
 }
 
-.bio-img {
-  display:inline-block;
-  float:right;
-	width: 30%;
-	height: 30%;
-  left:0;
+.figure .fig-nav a:hover {
   color:black;
 }
 
-.bio-header {
-  font-family: 'Cantarell';font-size: 28px;
-  letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom:20px;
-  margin-bottom: 0px;
-  text-align: center;
+.figure .fig-nav {
+  text-align: right;
+  right:0px;
+  width:50%;
+  padding: 10px;
+  height:auto;
+  font-size: 20px;
   color:white;
-  background-color: blue;
+  background-color: rgba(0,0,0,.5);
+  border-radius: 0px;
+  position:absolute;
+  top:0%;
+  z-index:1;
+  margin:0px;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.5)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,.5)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,.5)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgba(0,0,0,0), rgba(0,0,0,.5)); /* Standard syntax (must be last) */
 }
+
+.contact-link {
+  padding:30px;
+  text-align:center;
+}
+
+.figure img {
+  /*display:block;*/
+  width:100%;
+  height:100%;
+  max-width: 100%;
+  margin-bottom:0px;
+}
+
+
 
 .sample-works-header {
   clear: both;
   font-family: 'Cantarell';font-size: 28px;
   letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom:20px;
+  padding-top:10px;
+  padding-bottom:10px;
   text-align: center;
   color:white;
-  background-color: black;
+  background-color: #241E4E;
   width
 }
 
@@ -162,7 +311,11 @@ image postioning
   /*font-size: 20px;*/
 }
 
-
+.resume-holder {
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .resume-header {
   font-family: 'Cantarell';font-size: 28px;
@@ -172,12 +325,13 @@ image postioning
   margin-bottom: 0px;
   text-align: center;
   color:white;
-  background-color: purple;
+  background-color: #4E598C;
 }
 
 .resume {
   clear: both;
   min-height: 200%;
+  background-color: white;
 }
 
 .name {
@@ -190,30 +344,38 @@ image postioning
   float:left;
 	width: 25%;
 	height: 250px;
-  -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
-  transition: 1s
+  -webkit-transition: .3s; /* For Safari 3.1 to 6.0 */
+  transition: .3s
   left:0;
   color:white;
 }
 
-.work-block:hover {
-  width: 25%;
+.sample-work-blocks:hover > .work-block {
+  width: 24%;
+  height: 240px;
+  margin-top: 0px;
+}
+
+.sample-work-blocks:hover > .work-block:hover {
+  width: 28%;
   height: 250px;
   margin-top: 0px;
-  -moz-box-shadow:    0 0 50px black;
-  -webkit-box-shadow: 0 0 50px black;
-  box-shadow:         0 0 50px black;
+  /*-moz-box-shadow:    0px 0px 100px black;
+  -webkit-box-shadow: 0px 0px 100px black;*/
+  box-shadow:         0px 10px 100px 0px  black;
 }
 
 .work-block-header {
   font-size: 40px;
   text-align: center;
   position: relative;
-float: left;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
+  float: left;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
+
+
 
 .work-block-image {
   display:block;
@@ -236,7 +398,7 @@ transform: translate(-50%, -50%);
 }
 
 .work-block-text {
-  padding-right:20px;
+  width: 28%;
 }
 
 .work-block-info-header {
