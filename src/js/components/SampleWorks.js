@@ -149,7 +149,7 @@ class WorkBlock extends React.Component {
   render() {
     return (
       <div class="work-block" style={{background:this.props.color}} onMouseEnter={(e) => this.props.onHover(this.props)} onMouseLeave={(e) => this.props.onExit()}  >
-        <p class="work-block-header"><a class="work-block-link" href={this.props.link}><strong>{this.props.name}</strong></a></p>
+        <p class="work-block-header"><a class="work-block-link" href={this.props.link} target="_blank"><strong>{this.props.name}</strong></a></p>
       </div>
     )
   }

@@ -22,7 +22,8 @@ export default class Education extends React.Component {
 				 </div>
          <img class="education-img" src="./assets/TechTowerWebsite2.jpg" />
 				 <div class="education-text">
-					 <p>Pursuing B.S in Computer Science with concentrations in Artificial Intelligence and Modeling/Simulation.</p>
+					 <p>Pursuing B.S in Computer Science with concentrations in Artificial
+					 Intelligence and Modeling/Simulation and a minor in Economics</p>
 					 <p>Overall GPA: 3.69</p>
 					 <p><strong>Relevant Courses:</strong></p>
 					 <Courses />

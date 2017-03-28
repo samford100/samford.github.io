@@ -71,11 +71,12 @@ html * {
   letter-spacing: 10px;
   /*padding-top: 20px;
   padding-bottom:20px;*/
-  padding: 40px;
+  /*border-top: 5px solid #FFB86F;*/
+  padding: 20px;
   margin-bottom: 0px;
   text-align: center;
   color:white;
-  background-color: blue;
+  background-color: #FFB86F;
   display:block;
   margin-top:0px;
 }
@@ -131,7 +132,7 @@ html * {
 }
 
 .icon {
-  padding:5px;
+  /*padding:5px;*/
   -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
   transition: .5s;
   color:#4E598C;
@@ -436,7 +437,7 @@ html * {
   float:left;
 	width: 25%;
 	height: 250px;
-  -webkit-transition: .3s; /* For Safari 3.1 to 6.0 */
+  -webkit-transition: .3s;
   transition: .3s
   left:0;
   color:white;
@@ -513,7 +514,7 @@ html * {
 }
 
 .work-block-info {
-  transition:1s;
+  /*transition:1s;*/
   padding: 30px;
   padding-right:0px;
   display: relative;

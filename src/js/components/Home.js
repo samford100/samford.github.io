@@ -10,12 +10,14 @@ export default class Home extends React.Component {
   render() {
     return (
       <div>
+        <a name="home"></a>
         <TitlePicture />
         <Bio />
         <Education />
         <Experience />
         <SampleWorks />
         <Resume />
+        <Contact />
       </div>
     )
   }
