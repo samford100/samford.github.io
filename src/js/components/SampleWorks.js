@@ -28,7 +28,7 @@ export default class SampleWorks extends React.Component {
     const personalDesc = <div class="work-block-text">
       <p>
         This is the site you are on! Everything here is built from scratch, using HTML,
-        CSS, and Facebook''s React.</p>
+        CSS, and Facebook's React.</p>
         <p>I have completed several projects and feel very confindent using React and HTML
         to create high quality websites. For this project, I focused on improving my CSS skills,
         and did everything without Twitter Bootstrap training wheels.
