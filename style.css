@@ -19,6 +19,10 @@
 image postioning
 */
 
+html * {
+  font-family: "Raleway", sans-serif;
+}
+
 .headshot {
   position: relative;
   top: 150px;
@@ -65,8 +69,9 @@ image postioning
 .contact-header {
   font-family: 'Cantarell';font-size: 28px;
   letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom:20px;
+  /*padding-top: 20px;
+  padding-bottom:20px;*/
+  padding: 40px;
   margin-bottom: 0px;
   text-align: center;
   color:white;
@@ -83,33 +88,36 @@ image postioning
   background-color: white;
 }
 
-.bio-img {
-  /*display:inline-block;*/
-  float:right;
-	width: 30%;
-	height: inherit;
-  left:0;
-  color:black;
-}
+
 
 .bio-header {
   margin-top:0px;
   clear:both;
   font-family: 'Cantarell';font-size: 28px;
   letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom:20px;
+  padding:40px;
   margin-bottom: 0px;
   text-align: center;
   color:white;
   background-color: #FFB86F;
 }
 
+.bio-img {
+  /*display:inline-block;*/
+  float:right;
+	width: 35%;
+	height: inherit;
+  left:0;
+  color:black;
+}
+
 .bio-text {
   display:inline-block;
+  text-align:center;
   float:left;
-	width: 70%;
+	width: 65%;
   height:;
+  font-size: 20px;
   padding-right:20px;
   padding-left:20px;
   padding-top:20px;
@@ -120,6 +128,17 @@ image postioning
   left:0;
   color:black;
   /*background-color: yellow;*/
+}
+
+.icon {
+  padding:5px;
+  -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
+  transition: .5s;
+  color:#4E598C;
+}
+
+.icon:hover {
+  color: #98C1D9;
 }
 
 .education {
@@ -135,19 +154,22 @@ image postioning
   clear:both;
   font-family: 'Cantarell';font-size: 28px;
   letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom:20px;
+  padding:40px;
   margin-bottom: 0px;
   text-align: center;
   color:white;
   background-color: #eeb211;
 }
 
+
 .education-text {
   display:inline-block;
-  float:right;
-	width: 40%;
+  text-align:center;
+  position:relative;
+  height:100%;
+	width: 50%;
   height:auto;
+  font-size: 18px;
   padding-right:20px;
   padding-left:20px;
   padding-top:20px;
@@ -163,7 +185,7 @@ image postioning
 .education-img {
   /*display:inline-block;*/
   float:left;
-	width: 60%;
+	width: 50%;
 	height: inherit;
   left:0;
   color:black;
@@ -182,8 +204,7 @@ image postioning
   clear:both;
   font-family: 'Cantarell';font-size: 28px;
   letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom:20px;
+  padding:40px;
   margin-bottom: 0px;
   text-align: center;
   color:white;
@@ -194,19 +215,30 @@ image postioning
 
 }
 
+.company-holder {
+  margin: 0px;
+    width: 100%;
+    height: 100%;
+    line-height: 0px;
+    text-align: center;
+}
+
 .experience-text {
-  display:relative;
+  display:block;
 	width: 100%;
+  margin:auto;
+  left:auto;
+  right:auto;
   text-align: center;
   height:auto;
   padding-right:20px;
   padding-left:20px;
-  padding-top:20px;
+  padding-top:0px;
   margin-bottom:0px;
   padding-bottom:20px;
   -webkit-transition: 1s; /* For Safari 3.1 to 6.0 */
   transition: 1s;
-  left:0;
+  /*left:0;*/
   color:black;
   /*background-color: yellow;*/
 }
@@ -226,9 +258,33 @@ image postioning
 
 .figure {
   position: relative;
-  display: inline-block;
+  /*display: inline-block;*/
   width:100%;
   height:10%;
+}
+
+.education-container {
+  position:relative;
+}
+
+.education-caption {
+  text-align: right;
+  width:50%;
+  padding: 10px;
+  height:auto;
+	font-size:40px;
+	color:white;
+  position:absolute;
+  top:65%;
+  z-index:1;
+  margin:0px;
+  right:0px;
+  background: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,.8)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,.8)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, rgba(0,0,0,0), rgba(0,0,0,.8)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to left, rgba(0,37,76,1), rgba(0,37,76,0));
+  background: linear-gradient(to left, rgba(0,0,0,.5), rgba(0,0,0,0)); /* Standard syntax (must be last) */
+
 }
 
 .figure .figcaption {
@@ -261,7 +317,7 @@ image postioning
 .figure .fig-nav {
   text-align: right;
   right:0px;
-  width:50%;
+  width:60%;
   padding: 10px;
   height:auto;
   font-size: 20px;
@@ -297,12 +353,27 @@ image postioning
   clear: both;
   font-family: 'Cantarell';font-size: 28px;
   letter-spacing: 10px;
-  padding-top:10px;
-  padding-bottom:10px;
+  padding:40px;
   text-align: center;
   color:white;
   background-color: #241E4E;
   width
+}
+
+.education-top-img {
+  width: 100%;
+}
+
+.sample-works-header {
+  margin-top:0px;
+  clear:both;
+  font-family: 'Cantarell';font-size: 28px;
+  letter-spacing: 10px;
+  padding:40px;
+  margin-bottom: 0px;
+  text-align: center;
+  color:white;
+  background-color: #241E4E;
 }
 
 .info {
@@ -320,8 +391,7 @@ image postioning
 .resume-header {
   font-family: 'Cantarell';font-size: 28px;
   letter-spacing: 10px;
-  padding-top: 20px;
-  padding-bottom:20px;
+  padding:40px;
   margin-bottom: 0px;
   text-align: center;
   color:white;
@@ -336,6 +406,28 @@ image postioning
 
 .name {
   font-size:35px;
+}
+
+.courses ul {
+  list-style: none;
+}
+
+.course-block-wrapper {
+  position: relative
+}
+
+.course-block {
+  position:abolute;
+  bottom: 0px;
+  /*padding: 10px;*/
+  float:left;
+	width: 100%;
+	height: full;
+  -webkit-transition: .3s; /* For Safari 3.1 to 6.0 */
+  transition: .3s
+  left:0;
+  color:white;
+  background-color:blue;
 }
 
 .work-block {
@@ -356,12 +448,42 @@ image postioning
   margin-top: 0px;
 }
 
+.company-img {
+  max-width: 40%;
+  max-height: 20%;
+  padding: 30px;
+  vertical-align: middle;
+}
+
+.company-dates {
+  font-size: 28px;
+}
+
+.company-text {
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  /*line-height: 60px;*/
+  padding-left:100px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+}
+
+.company-text p {
+  /*padding: 20px;*/
+}
+
+.company-tech {
+  font-size: 24px;
+  /*padding: 20px;*/
+}
+
 .sample-work-blocks:hover > .work-block:hover {
   width: 28%;
   height: 250px;
   margin-top: 0px;
-  /*-moz-box-shadow:    0px 0px 100px black;
-  -webkit-box-shadow: 0px 0px 100px black;*/
+  -moz-box-shadow:    0px 10px 100px 0px  black;;
+  -webkit-box-shadow: 0px 10px 100px 0px  black;;
   box-shadow:         0px 10px 100px 0px  black;
 }
 
@@ -375,21 +497,25 @@ image postioning
   transform: translate(-50%, -50%);
 }
 
-
+.sav-text strong {
+  font-weight: bolder;
+  font-size: 22px;
+}
 
 .work-block-image {
   display:block;
   margin: auto;
   text-align: center;
+  width: 65%;
   height: 70%;
-  width: 70%;
   float:right;
-  background-size: cover;
+  padding-bottom:30px;
 }
 
 .work-block-info {
   transition:1s;
-  padding: 20px;
+  padding: 30px;
+  padding-right:0px;
   display: relative;
   clear: both;
   max-width: 100%;
@@ -398,7 +524,10 @@ image postioning
 }
 
 .work-block-text {
-  width: 28%;
+  float:left;
+  padding-right:20px;
+  width: 35%;
+  font-size: 18px;
 }
 
 .work-block-info-header {
@@ -413,112 +542,8 @@ image postioning
   color: yellow;
 }
 
-.rct-sidebar-header {
-  background: gold !important;
-}
-
-.rct-label-group {
-  background: gold !important;
-}
-
-/*
-sidebar links
-*/
-.sidebar a {
-  color: white;
-}
-
-.active-row {
-  background-color: lightgray;
-}
-
-a:focus {
-  outline: none;
-    text-decoration: none
-
-}
-
-.changeArrow:hover {
-  color: gold;
-  cursor: pointer;
-}
-
-.sidebar a:hover, .sidebar a:focus {
-  color: gold;
-  text-decoration: none
-  outline: none;
-}
-
-.sidebar h5 {
-  text-decoration: none
-}
-
-a:hover {
-  color: gold;
-    text-decoration: none
-
-}
-
-.nav a {
-  display: block;
-}
-
-nav a {
-  color: gold;
-}
-
-.activeLink {
-  color: gold;
-}
-
-a:hover {
-  color: gold;
-    text-decoration: none
-
-}
-
-a:focus {
-  color: gold;
-    text-decoration: none
-
-}
-
-a:active {
-  color: gold;
-    text-decoration: none
-
-}
-
-a {
-  text-decoration: none
-}
-
-tr:selected {
-  background-color: gold;
-}
-
-.btn {
-  background-color: gold;
-}
 
 
-/*
- * Sidebar
- */
-
-.sidebar {
-  position: fixed;
-  top: 0px;
-  bottom: 0vh;
-  left: 0;
-  padding: 20px;
-  /* overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  border-right: 1px solid #eee;
-}
-
-.nav-link {
-  display: inline-block;
-}
 
 
 .footer {
@@ -529,40 +554,4 @@ tr:selected {
   /* Set the fixed height of the footer here */
   height: 60px;
   line-height: 60px; /* Vertically center the text there */
-}
-
-/* Sidebar navigation */
-.sidebar {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.sidebar .nav {
-  margin-bottom: 20px;
-}
-
-.sidebar .nav-item {
-  width: 100%;
-}
-
-.sidebar .nav-item + .nav-item {
-  margin-left: 0;
-}
-
-.sidebar .nav-link {
-  border-radius: 0;
-}
-
-/*
- * Dashboard
- */
-
- /* Placeholders */
-.placeholders {
-  padding-bottom: 3rem;
-}
-
-.placeholder img {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }

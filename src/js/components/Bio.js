@@ -5,32 +5,31 @@ export default class Bio extends React.Component {
 		return (
       <div class="bio">
 				<a name="bio"></a>
-
+				<a name="contact"></a>
 			   <h1 class="bio-header">Bio</h1>
-				 <p class="bio-text">
-				 	<span><strong class="name">Hello Word</strong></span><br />
-					 <span>My name is Sam Ford and
-					 I am a 4th year student at the Georgia Institute of Technology pursuing a
-					 Computer Science degree with a minor in Economics.
-					 My areas of concentration are Artificial Intelligence and Modeling/Simulation,
-					 with a serious interest in Machine Learning. </span>
-					 <span>My name is Sam Ford and
-					 I am a 4th year student at the Georgia Institute of Technology pursuing a
-					 Computer Science degree with a minor in Economics.
-					 My areas of concentration are Artificial Intelligence and Modeling/Simulation,
-					 with a serious interest in Machine Learning. </span>
-					 <span>My name is Sam Ford and
-					 I am a 4th year student at the Georgia Institute of Technology pursuing a
-					 Computer Science degree with a minor in Economics.
-					 My areas of concentration are Artificial Intelligence and Modeling/Simulation,
-					 with a serious interest in Machine Learning. </span>
-					 <span>My name is Sam Ford and
-					 I am a 4th year student at the Georgia Institute of Technology pursuing a
-					 Computer Science degree with a minor in Economics.
-					 My areas of concentration are Artificial Intelligence and Modeling/Simulation,
-					 with a serious interest in Machine Learning. </span>
-				 </p>
-				 <img class="bio-img" src="./assets/headshot.png" />
+				 <div class="bio-text">
+				 	<p><strong class="name">Hello, World.</strong></p>
+					 <p>My name is Sam Ford. I''m a 4th year computer scientist, lacrosse player,
+					 and proud Yellow Jacket from the Chicago Suburbs.
+					 </p>
+					 <p>
+					 	I am really interested in machine learning, data visualizations, and all the  "BIG DATA" buzzwords.
+					 </p>
+					 <p>
+					 	Thanks for browsing my site. Check out my sample works, experience, and resume, and if you have any
+						questions, comments, or concerns about how the site looks on your computer, send
+						me an email.
+					 </p>
+					 <p>Cheers!</p>
+
+					 <a name="contact"></a>
+					 <a href="mailto:sford100@gatech.edu?Subject=Hello,%20Sam%20" target="_top">
+					   <i class="fa fa-envelope-square fa-2x icon" aria-hidden="true"></i>
+					 </a>
+
+
+				 </div>
+				 <img class="bio-img" src="./assets/headshot3.png" />
       </div>
 		)
 	}
