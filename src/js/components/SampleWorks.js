@@ -19,7 +19,8 @@ export default class SampleWorks extends React.Component {
 
   onExit = () => {
     // this.setState({
-    //   block: null
+    //   block: nulld
+
     // })
   }
 
