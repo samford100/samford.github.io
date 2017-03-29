@@ -29,7 +29,7 @@ export default class SampleWorks extends React.Component {
       <p>
         This is the site you are on! Everything here is built from scratch, using HTML,
         CSS, and Facebook's React.</p>
-        <p>I have completed several projects and feel very confindent using React and HTML
+        <p>I have completed several projects and feel very confident using React and HTML
         to create high quality websites. For this project, I focused on improving my CSS skills,
         and did everything without Twitter Bootstrap training wheels.
         </p>
@@ -40,7 +40,7 @@ export default class SampleWorks extends React.Component {
 
     const savageDesc = <div class="work-block-text sav-text">
       <p>
-      <strong>S</strong>calable <strong>A</strong>rchitexture and <strong>V</strong>isualization
+      <strong>S</strong>calable <strong>A</strong>rchitecture and <strong>V</strong>isualization
       for <strong>A</strong>nomaly
       detection in power <strong>G</strong>enerating <strong>E</strong>nergy assets</p>
 
@@ -71,8 +71,8 @@ export default class SampleWorks extends React.Component {
     const coursesDesc = <div class="work-block-text">
       <p>
         This site shows courses frequently taken by Professional Education students at Georgia Tech.
-        I received anomymous student class data, and found common course sequences using
-        using the PrefixSpan sequence mining algorithm. Advisors at the Professional Education
+        I received anonymous student class data, and found common course sequences using
+        the PrefixSpan sequence mining algorithm. Advisors at the Professional Education
         school at Georgia Tech use this software to recommend classes for students based on classes
         their peers have taken.</p>
         <p>Click on the link to see it in action!

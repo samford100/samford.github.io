@@ -9,11 +9,11 @@ export default class Bio extends React.Component {
 			   <h1 class="bio-header">Bio</h1>
 				 <div class="bio-text">
 				 	<p><strong class="name">Hello, World.</strong></p>
-					 <p>My name is Sam Ford. I'm a 4th year computer scientist, lacrosse player,
-					 and proud Yellow Jacket from the Chicago Suburbs.
+					 <p>My name is Sam Ford. I'm a 4th year Computer Scientist, lacrosse player,
+					 and proud Yellow Jacket from the Chicago suburbs.
 					 </p>
 					 <p>
-					 	I am really interested in machine learning, data visualizations, and all the  "BIG DATA" buzzwords.
+					 	I am interested in machine learning, data visualizations, and all the  "BIG DATA" buzzwords.
 					 </p>
 					 <p>
 					 	Thanks for browsing my site. Check out my sample works, experience, and resume, and if you have any
