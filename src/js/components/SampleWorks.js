@@ -49,7 +49,7 @@ export default class SampleWorks extends React.Component {
       with tens to hundreds of sensors for monitoring physical and performance degradation.
       This research project aims to detect, ingest, and visualize anomalies for people working
       in the field.</p>
-      <p>Click the link to view the paper on arvix.
+      <p>Click the link to view the paper on arXiv.
       </p>
     </div>
 
@@ -103,8 +103,8 @@ export default class SampleWorks extends React.Component {
           onHover={this.onHover}
           onExit={this.onExit} />
         <WorkBlock
-          name="LION PING"
-          image="./assets/lionping.png"
+          name="Lion Ping"
+          image="./assets/lionping_new.png"
           link="https://github.com/jparkhurst3/Thundercats_LionPing"
           description={lionDesc}
           color="#EEB211"
