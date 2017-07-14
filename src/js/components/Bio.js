@@ -25,6 +25,10 @@ export default class Bio extends React.Component {
 					 <a href="mailto:sford100@gatech.edu?Subject=Hello,%20Sam%20" target="_top">
 					   <i class="fa fa-envelope-square fa-2x icon" aria-hidden="true"></i>
 					 </a>
+					 <a href="https://www.linkedin.com/in/sam-ford-020a4a141/" target="_top">
+					   <i class="fa fa-linkedin-square fa-2x icon linkedin  " aria-hidden="true"></i>
+					 </a>
+
 
 
 				 </div>

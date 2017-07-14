@@ -136,12 +136,16 @@ html * {
   -webkit-transition: .5s; /* For Safari 3.1 to 6.0 */
   transition: .5s;
   color:#4E598C;
+  padding:5px;
 }
 
 .icon:hover {
   color: #98C1D9;
 }
 
+.linkedin {
+	color:#0077B5;
+}
 .education {
   display:relative;
   height: 100%;
