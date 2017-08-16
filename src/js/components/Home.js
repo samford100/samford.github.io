@@ -5,6 +5,7 @@ import Bio from './Bio'
 import Contact from './Contact'
 import Education from './Education.js'
 import Experience from './Experience.js'
+import {Link} from 'react-router'
 
 export default class Home extends React.Component {
   render() {

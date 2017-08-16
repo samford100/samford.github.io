@@ -439,7 +439,7 @@ html * {
   display:relative;
   padding: 10px;
   float:left;
-	width: 25%;
+	width: 20%;
 	height: 250px;
   -webkit-transition: .3s;
   transition: .3s
@@ -448,7 +448,7 @@ html * {
 }
 
 .sample-work-blocks:hover > .work-block {
-  width: 24%;
+  width: 19%;
   height: 240px;
   margin-top: 0px;
 }
@@ -484,7 +484,7 @@ html * {
 }
 
 .sample-work-blocks:hover > .work-block:hover {
-  width: 28%;
+  width: 24%;
   height: 250px;
   margin-top: 0px;
   -moz-box-shadow:    0px 10px 100px 0px  black;;
