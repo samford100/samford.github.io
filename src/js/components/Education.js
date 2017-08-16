@@ -24,7 +24,7 @@ export default class Education extends React.Component {
 				 <div class="education-text">
 					 <p>Pursuing B.S in Computer Science with concentrations in Artificial
 					 Intelligence and Modeling/Simulation and a minor in Economics</p>
-					 <p>Overall GPA: 3.69</p>
+					 <p>Overall GPA: 3.68</p>
 					 <p><strong>Relevant Courses:</strong></p>
 					 <Courses />
 				 </div>
@@ -42,11 +42,11 @@ class Courses extends React.Component {
 		return (
 			<div class="courses">
 				<ul>
-					<li>Machine Learning, Knowledge Based Artificial Intelligence</li>
+					<li>Machine Learning, Knowledge Based Artificial Intelligence, Data and Visual Analytics, Psychology of Sensation and Perception</li>
 					<li>Data Structures and Algorithms, Algorithm Design and Analysis, Automata and Complexity Theory</li>
-					<li>Discrete Math, Combinatorics, Graph Theory</li>
-					<li>Computer Systems and Networks, Computer Organization, Digital System Design, High Performance Computing</li>
-					<li>Differential Equations, Multivariable Calculus, Probability and Statistics, Economic and Financial Modeling</li>
+					<li>Discrete Math, Combinatorics, Graph Theory, Differential Equations, Multivariable Calculus, Probability and Statistics</li>
+					<li>High Performance Parallel Computing, Computer Systems, Networking, Computer Organization, Digital System Design</li>
+					<li>Economic and Financial Modeling, Econometrics, Advanced Macroeconomics</li>
 				</ul>
 			</div>
 		)

@@ -2,13 +2,22 @@ import React from 'react'
 
 export default class Experience extends React.Component {
 	render() {
-    const qualcommDescripton = "COMING SOON!";
+    const qualcommDescripton = <div class="company-description">
+      <p>Software engineering intern for Qualcomm in San Diego, Californina</p>
+      <p>Worked on the modem team designing protocols making data calls</p>
+      <p>Created tools to analyze and compare unit test results</p>
+      <p>Gained experience and insight into the 5G evolution</p>
+      <p>Collaborated with a fifteen person team to diagnose and solve issues</p>
+      <p>Finalist in the intern hackathon creating a room utilization website</p>
+    </div>
+
     const leanDescripton = <div class="company-description">
       <p>Software engineer for a basketball analytics startup</p>
       <p>Used by The University of North Carolina, Stanford, Michigan State, Georgia Tech, and several other colleges</p>
       <p>Implemented features on the frontend and backend using the MEAN stack</p>
       <p>Created a web-scrapping app to reduce game analysis time by upwards of 100%</p>
     </div>
+
     const researchDescripton = <div class="company-description">
       <p>Created visualization framework for anomaly detection in power generating assets</p>
       <p>Discovered class sequences typically taken by students in the professional education at Georgia Tech</p>
@@ -35,7 +44,7 @@ export default class Experience extends React.Component {
             image="./assets/companies/qualcomm.png"
             dates="May 2017 - August 2017"
             description={qualcommDescripton}
-            tech="COMING SOON!" />
+            tech="C++, Python, React, MongoDB, Heroku" />
            <Company
             company="Georgia Tech Research"
             title="Data Scientist, Software Engineer"
