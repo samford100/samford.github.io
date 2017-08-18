@@ -18,7 +18,9 @@ const personalDesc = <div className="work-block-text">
 
 const qpongDesc = <div className="work-block-text">
   <p>Created in 16 hours at the Qualcomm HackMobile Hackathon by myself, Tony Oliverio, Zach Wachtel, and Brian Worek.</p>
-  <p></p>
+  <p>In general, this app is a room utilization tool. This implementation focuses on the ping pong rooms all around the Qualcomm campus, 
+  letting players quickly check if if any of their favorite ping pong rooms are in use, as well as see some analytics 
+  of both daily and weekly use.</p>
   <p>Click on the link to check out the site!</p>
 </div>
 
