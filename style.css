@@ -416,6 +416,12 @@ html * {
 .courses ul {
   list-style: none;
 }
+.courses p {
+  font-size: 15px;
+}
+.courses h4 {
+  font-weight:bold;
+}
 
 .course-block-wrapper {
   position: relative
