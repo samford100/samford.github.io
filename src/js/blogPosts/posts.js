@@ -21,18 +21,3 @@ class Post1 extends Component {
 		)
 	}
 }
-
-
-setup = (sentences) => {
-	mc = {}
-	for (sentence : sentence) {
-		for (word in sentence.split()) {
-			if (mc[word] == null) {
-				
-			}
-		}
-	}
-}
-
-
-

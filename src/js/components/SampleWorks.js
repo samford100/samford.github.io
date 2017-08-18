@@ -21,8 +21,7 @@ const qpongDesc = <div class="work-block-text">
 </div>
 
 const savageDesc = <div class="work-block-text sav-text">
-  <p>
-  <strong>S</strong>calable <strong>A</strong>rchitecture and <strong>V</strong>isualization
+  <p><strong>S</strong>calable <strong>A</strong>rchitecture and <strong>V</strong>isualization
   for <strong>A</strong>nomaly
   detection in power <strong>G</strong>enerating <strong>E</strong>nergy assets</p>
 
@@ -30,24 +29,23 @@ const savageDesc = <div class="work-block-text sav-text">
   with tens to hundreds of sensors for monitoring physical and performance degradation.
   This research project aims to detect, ingest, and visualize anomalies for people working
   in the field.</p>
-  <p>Click the link to view the paper on arXiv.
+  <p>This project was only possible through the hardwork of 
+  Paras Jain, Chirag Tailor, Sam Ford, Liexiao Ding, Michael Phillips, Fang Liu, Nagi Gebraeel, and Duen Horng (Polo) Chau
   </p>
+  <p>Click the link to view the paper on arXiv.</p>
 </div>
 
 const lionDesc = <div class="work-block-text">
-  <p>
-    This is my senior design project at Georgia Tech. </p>
-    <p>Our team was contracted by the travel and
-    expense management company Concur to create an incident management platform.
-    With a consumer facing product, a company like Concur can really suffer
-    if any of their services, e.g. databases,
-    website, etc. are down too long. </p>
-    <p>Our platform allows managers to create teams and
-    set schedules for automatic "pinging" of an employee on call, so they can quickly
-    fix the issue and reduce downtime for their customers. </p>
-    <p>Click on the link to view the source code.
-
-  </p>
+  <p>This is my senior design project at Georgia Tech. </p>
+  <p>Our team was contracted by the travel and
+  expense management company Concur to create an incident management platform.
+  With a consumer facing product, a company like Concur can really suffer
+  if any of their services, e.g. databases,
+  website, etc. are down too long.</p>
+  <p>Our platform allows managers to create teams and
+  set schedules for automatic "pinging" of an employee on call, so they can quickly
+  fix the issue and reduce downtime for their customers.</p>
+  <p>Click on the link to view the source code.</p>
 </div>
 
 const coursesDesc = <div class="work-block-text">
