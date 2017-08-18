@@ -1,7 +1,9 @@
 import React from 'react'
+import './style.css'
 
 
-const personalDesc = <div class="work-block-text">
+
+const personalDesc = <div className="work-block-text">
   <p>
     This is the site you are on! Everything here is built from scratch, using HTML,
     CSS, and Facebook's React.</p>
@@ -14,13 +16,13 @@ const personalDesc = <div class="work-block-text">
   </p>
 </div>
 
-const qpongDesc = <div class="work-block-text">
+const qpongDesc = <div className="work-block-text">
   <p>Created in 16 hours at the Qualcomm HackMobile Hackathon by myself, Tony Oliverio, Zach Wachtel, and Brian Worek.</p>
   <p></p>
   <p>Click on the link to check out the site!</p>
 </div>
 
-const savageDesc = <div class="work-block-text sav-text">
+const savageDesc = <div className="work-block-text sav-text">
   <p><strong>S</strong>calable <strong>A</strong>rchitecture and <strong>V</strong>isualization
   for <strong>A</strong>nomaly
   detection in power <strong>G</strong>enerating <strong>E</strong>nergy assets</p>
@@ -30,12 +32,12 @@ const savageDesc = <div class="work-block-text sav-text">
   This research project aims to detect, ingest, and visualize anomalies for people working
   in the field.</p>
   <p>This project was only possible through the hardwork of 
-  Paras Jain, Chirag Tailor, Sam Ford, Liexiao Ding, Michael Phillips, Fang Liu, Nagi Gebraeel, and Duen Horng (Polo) Chau
+  Paras Jain, Chirag Tailor, Sam Ford, Liexiao Ding, Michael Phillips, Fang Liu, Nagi Gebraeel, and Duen Horng (Polo) Chau.
   </p>
   <p>Click the link to view the paper on arXiv.</p>
 </div>
 
-const lionDesc = <div class="work-block-text">
+const lionDesc = <div className="work-block-text">
   <p>This is my senior design project at Georgia Tech. </p>
   <p>Our team was contracted by the travel and
   expense management company Concur to create an incident management platform.
@@ -48,7 +50,7 @@ const lionDesc = <div class="work-block-text">
   <p>Click on the link to view the source code.</p>
 </div>
 
-const coursesDesc = <div class="work-block-text">
+const coursesDesc = <div className="work-block-text">
   <p>
     This site shows courses frequently taken by Professional Education students at Georgia Tech.
     I received anonymous student class data, and found common course sequences using
@@ -90,10 +92,10 @@ export default class SampleWorks extends React.Component {
 
 	render() {
 		return (
-      <div class="sample-works">
+      <div className="sample-works">
       <a name="sampleworks"></a>
-    		<h1 class="sample-works-header">Sample Works</h1>
-        <div class="sample-work-blocks">
+    		<h1 className="sample-works-header">Sample Works</h1>
+        <div className="sample-work-blocks">
           <WorkBlock
             name="Personal Website"
             link="http://www.sam-ford.me"
@@ -150,23 +152,23 @@ class WorkBlockInfo extends React.Component {
       )
     }
     return (
-      <div class="work-block-info">
-        <img class="work-block-image" src={this.props.block.image} />
+      <div className="work-block-info">
+        <img className="work-block-image" src={this.props.block.image} />
         <h2 style={{margin:"0px"}}><strong>{this.props.block.name}</strong></h2>
         {this.props.block.description}
       </div>
     )
   }
 }
-// <img class="work-block-image" src={this.props.block.image} />
+// <img className="work-block-image" src={this.props.block.image} />
 // <h2><strong>{this.props.block.name}</strong></h2>
-// <p class="work-block-text">{this.props.block.description}</p>
+// <p className="work-block-text">{this.props.block.description}</p>
 
 class WorkBlock extends React.Component {
   render() {
     return (
-      <div class="work-block" style={{background:this.props.color}} onMouseEnter={(e) => this.props.onHover(this.props)} onMouseLeave={(e) => this.props.onExit()}  >
-        <p class="work-block-header"><a class="work-block-link" href={this.props.link} target="_blank"><strong>{this.props.name}</strong></a></p>
+      <div className="work-block" style={{background:this.props.color}} onMouseEnter={(e) => this.props.onHover(this.props)} onMouseLeave={(e) => this.props.onExit()}  >
+        <p className="work-block-header"><a className="work-block-link" href={this.props.link} target="_blank"><strong>{this.props.name}</strong></a></p>
       </div>
     )
   }

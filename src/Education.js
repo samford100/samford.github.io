@@ -1,14 +1,16 @@
 import React from 'react'
+import './style.css'
+
 
 export default class Education extends React.Component {
 	render() {
 		return (
-      <div class="education">
+      <div className="education">
 			<a name="education"></a>
-			   <h1 class="education-header">Education</h1>
-				 <div class="education-container">
-					 <img class="education-top-img" src="./assets/lax.jpg" />
-					 <div class="education-caption">
+			   <h1 className="education-header">Education</h1>
+				 <div className="education-container">
+					 <img className="education-top-img" src="./assets/lax.jpg" />
+					 <div className="education-caption">
 						 <h1>
 							 <span>Georgia Institute of Technology</span>
 						 </h1>
@@ -20,8 +22,8 @@ export default class Education extends React.Component {
 						 </h4>
 					 </div>
 				 </div>
-         <img class="education-img" src="./assets/TechTowerWebsite2.jpg" />
-				 <div class="education-text">
+         <img className="education-img" src="./assets/TechTowerWebsite2.jpg" />
+				 <div className="education-text">
 					 <p>Pursuing B.S in Computer Science with concentrations in Artificial
 					 Intelligence and Modeling/Simulation and a minor in Economics</p>
 					 <p>Overall GPA: 3.68</p>
@@ -39,7 +41,7 @@ class Courses extends React.Component {
 		// 	return null
 		// }
 		// return (
-		// 	<div class="courses">
+		// 	<div className="courses">
 		// 		<ul>
 		// 			<li>Machine Learning, Knowledge Based Artificial Intelligence, Data and Visual Analytics, Psychology of Sensation and Perception</li>
 		// 			<li>Data Structures and Algorithms, Algorithm Design and Analysis, Automata and Complexity Theory</li>
@@ -51,7 +53,7 @@ class Courses extends React.Component {
 		// )
 
 		return (
-			<div class="courses">
+			<div className="courses">
 				<h4>-- Artificial Intelligence --</h4>
 					<p>Machine Learning, Knowledge Based Artificial Intelligence, Data and Visual Analytics, Psychology of Sensation and Perception</p>
 				<h4>-- Computer Science Theory --</h4>

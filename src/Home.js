@@ -6,6 +6,8 @@ import Contact from './Contact'
 import Education from './Education.js'
 import Experience from './Experience.js'
 import {Link} from 'react-router'
+import './style.css'
+
 
 export default class Home extends React.Component {
   render() {
@@ -27,10 +29,10 @@ export default class Home extends React.Component {
 class TitlePicture extends Component {
   render() {
     return (
-      <div class="parent">
-        <div class="figure">
+      <div className="parent">
+        <div className="figure">
           <img src="./assets/cliffs.png" />
-          <div class="figcaption">
+          <div className="figcaption">
             <h1>
               <span>Sam Ford</span>
             </h1>
@@ -38,7 +40,7 @@ class TitlePicture extends Component {
               <span>Software Engineer</span>
             </h2>
           </div>
-          <div class="fig-nav">
+          <div className="fig-nav">
               <a href="#bio"><strong>Bio&nbsp;&nbsp; </strong></a>
               <a href="#education"><strong>Education&nbsp;&nbsp; </strong></a>
               <a href="#experience"><strong>Experience&nbsp;&nbsp; </strong></a>
@@ -57,9 +59,9 @@ class TitlePicture extends Component {
 class Pictures extends Component {
   render() {
     return (
-      <div class="parent">
-        <img class="bobbydodd" src="../assets/bobbydodd.jpg" height="100%" width="100%" />
-        <img class="headshot" src="../assets/headshot.jpg" height="20%" width="20%" />
+      <div className="parent">
+        <img className="bobbydodd" src="../assets/bobbydodd.jpg" height="100%" width="100%" />
+        <img className="headshot" src="../assets/headshot.jpg" height="20%" width="20%" />
       </div>
     )
   }
@@ -68,9 +70,9 @@ class Pictures extends Component {
 class Info extends Component {
   render() {
     return (
-      <div class="info">
+      <div className="info">
       <p>
-        <strong class="name">Welcome</strong> to my page! My name is Sam Ford and
+        <strong className="name">Welcome</strong> to my page! My name is Sam Ford and
         I am a 4th year student at the Georgia Institute of Technology pursuing a
         Computer Science degree with a minor in Economics.
         My areas of concentration are Artificial Intelligence and Modeling/Simulation,

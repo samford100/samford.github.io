@@ -362,7 +362,6 @@ html * {
   text-align: center;
   color:white;
   background-color: #241E4E;
-  width
 }
 
 .education-top-img {
@@ -435,7 +434,7 @@ html * {
 	width: 100%;
 	height: full;
   -webkit-transition: .3s; /* For Safari 3.1 to 6.0 */
-  transition: .3s
+  transition: .3s;
   left:0;
   color:white;
   background-color:blue;
@@ -448,7 +447,7 @@ html * {
 	width: 20%;
 	height: 250px;
   -webkit-transition: .3s;
-  transition: .3s
+  transition: .3s;
   left:0;
   color:white;
 }
@@ -542,7 +541,6 @@ html * {
 }
 
 .work-block-info-header {
-  font-size
 }
 
 .work-block-link {
