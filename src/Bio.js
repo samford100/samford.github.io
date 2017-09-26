@@ -11,7 +11,7 @@ export default class Bio extends React.Component {
 			   <h1 className="bio-header">Bio</h1>
 				 <div className="bio-text">
 				 	<p><strong className="name">Hello, World.</strong></p>
-					 <p>My name is Sam Ford. I'm a 4th year Computer Scientist, lacrosse player,
+					 <p>My name is Sam Ford. I'm a 5th year Computer Scientist, lacrosse player,
 					 and proud Yellow Jacket from the Chicago suburbs.
 					 </p>
 					 <p>
