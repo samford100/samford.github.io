@@ -16,13 +16,14 @@ class Routes extends React.Component {
 		<Router history={hashHistory}>
 		  <Route path='/' component={Container}>
 			<IndexRoute component={Home} />
-      		<Route path='*' component={Home} />
+
 		  </Route>
 		</Router>
 	  </div>
 	)
   }
 };
+//       		<Route path='*' component={Home} />
 
 // class Blog extends Component {
 // 	render() {
